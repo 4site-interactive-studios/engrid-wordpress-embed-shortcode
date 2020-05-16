@@ -14,9 +14,9 @@ The ENGRid WordPress Plugin was built to compliment our [ENGrid Page Template](h
 
 # Passing of URL Arguments to iFramed page
 The URL used for the WordPress Shortcode can include URL arguments. In addition, any URL arguments present on the parent page will be appended to the iFrame URL. In the below example, a visitor comes from a Gogle Adwords ad and see's a Giving Tuesday Lightbox with an iFrame Embed of an Engaging Networks Doantion page. 
-1) Shortcode URL: [en url="https://netdonor.net/page/12345/donate/1?intpromo_type=lightbox"]
+1) Shortcode URL: [en url="https://netdonor.net/page/12345/donate/1?promo_type=lightbox"]
 2) Parent Page URL: https://website.org?utm_source=adwords
-3) Rendered iFrame URL: https://netdonor.net/page/12345/donate/1?intpromo_type=lightbox&utm_source=adwords
+3) Rendered iFrame URL: https://netdonor.net/page/12345/donate/1?promo_type=lightbox&utm_source=adwords
 
 # Conditionally Firing Analytics and Other Scripts when Embedded
 Because the iFrame pages are loaded with the parent page, any analytics on the child page(s) will fire as well; for example, recording two page views. To prevent this you can wrap your analytics on the Engagign Networks page in the following code. This will make it so that when the Engaging Networks page appears in an iFrame, the analytics wrapped in the code are only fired when the iFrame is interacted with. Otherwise, when the page is visited not in an iFrame, the analytics will fire normally.
