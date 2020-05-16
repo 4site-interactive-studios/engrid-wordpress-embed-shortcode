@@ -1,10 +1,10 @@
 # ENGrid for WordPress: Seamless Engaging Networks iFramed Pages in Wordpress
 <img align="right" width="250" height="250" src="https://engagingnetworks.academy/wp-content/uploads/2019/09/D-D-Partner.png">
 
-- Designed and Developed by [4Site Studios](http://4sitestudios.com/en?ms=github) while working with:
-  - Ocean Conservancy
-  - Oxfam Canada
-  - People for the Ethical Treatment of Animals
+Designed and Developed by [4Site Studios](http://4sitestudios.com/en?ms=github) while working with:
+- Ocean Conservancy
+- Oxfam Canada
+- People for the Ethical Treatment of Animals
 
 # Example Shortcode
 ```[en url="https://netdonor.net/page/12345/donate/1?in_type=lightbox&in_name=giving_tuesday_2020"]```
