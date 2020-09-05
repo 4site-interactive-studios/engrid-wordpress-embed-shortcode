@@ -10,7 +10,7 @@ Designed and Developed by [4Site Studios](http://4sitestudios.com/en?ms=github) 
 ```[en url="https://netdonor.net/page/12345/donate/1?in_type=lightbox&in_name=giving_tuesday_2020"]```
 
 # Engaging Networks Page Template
-The ENGRid WordPress Plugin was built to compliment our [ENGrid Page Template](https://github.com/4site-interactive-studios/engrid) and does not change the layout of the Engagign Networks page being embedded. If your Engaging Networks page template does not support an "embedded" state which strips the page of styling outside of the body copy and form, please update your template to do so or use the [ENGrid Page Template](https://github.com/4site-interactive-studios/engrid) which has this functionality built in.
+The ENGrid WordPress Plugin was built to compliment our [ENGrid Page Template](https://github.com/4site-interactive-studios/engrid) and does not change the layout of the Engagign Networks page being embedded. If your Engaging Networks page template does not support an "embedded" state which strips the page of styling outside of the body copy and form, please update your template to do so or use the [ENGrid Page Template](https://github.com/4site-interactive-studios/engrid) which has this functionality built in.
 
 # Passing of URL Arguments to iFramed page
 The URL used for the WordPress Shortcode can include URL arguments. In addition, any URL arguments present on the parent page will be appended to the iFrame URL. In the below example, a visitor comes from a Gogle Adwords ad and see's a Giving Tuesday Lightbox with an iFrame Embed of an Engaging Networks Doantion page. 
