@@ -55,6 +55,21 @@ if (isIframe() && window.hasOwnProperty("pageJson") && pageJson.pageNumber == 1)
 # Lazyloading the iFrame
 The iFrame includes loading="lazy" which is a new feature within browsers to lazy laod images and iFrames. It's exact functionality varies from browser to browser but in general this should help reduce any impact on page load times for the parent page.
 
+# Features
+1.  WordPress Plugin Shortcodes
+    -   e.g [en url="[https://support.example.org/page/1234/donate/1](https://support.example.org/page/1234/donate/1)"]
+2.  Seamless iFrame
+    -   The iFrame is visually seamless to the end user. They will never know they're interacting with an iFrame as it always resizes to fit exactly.
+3.  (In Progress) Supports multiple shortcodes on the same page
+    -   This could come up if someone wants to embed multiple shortcodes on the same page (e.g. Action and a Donation page).
+4.  On the parent page, scroll to the top of the iframe after form submission and the resulting page loads (e.g. Thank You page).
+5.  On the parent page, scroll to the top of the iframe if form submission results in a server side error.
+6.  On the parent page, scroll to the first inline error in the iFrame if on form submission there is a client side error.
+7.  Do not fire analytics scripts in the embedded Page Template until the iFrame is interacted with by gaining focus, or if that iFramed page is on any other Engaging Networks pages (pageJson.pageNumber) besides the first page (e.g. Conversion Tracking).
+8.  Set an "embedded" class on the embedded page when loaded in an iFrame. This enabled conditional styling to be used. As a result ANY page using any page template can be embedded without the need for a purpose built page template that is only used for form embeds.
+    -   e.g. Hide the background image when embedded.
+    -   e.g. Hide page "chrome" like header, footer, padding, etc...
+
 # Known Limitations
 Currently the en-iframe plugin has only been QA'ed and tested to load a single embedded iFrame per page. If you are interested in sponsoring further development, please reach out today.
 
