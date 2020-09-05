@@ -38,7 +38,7 @@ function load_scripts() {
 	/* END: Your Analytics Scripts */
 	console.log("Scripts Loaded")
 }
-if (isIframe()) {
+if (isIframe() && window.hasOwnProperty("pageJson") && pageJson.pageNumber == 1) {
 	var loaded_once;
 	window.onfocus = function() {
 		if (!loaded_once) {
