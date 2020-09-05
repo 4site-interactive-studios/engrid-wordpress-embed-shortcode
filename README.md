@@ -70,9 +70,6 @@ The iFrame includes loading="lazy" which is a new feature within browsers to laz
     -   e.g. Hide the background image when embedded.
     -   e.g. Hide page "chrome" like header, footer, padding, etc...
 
-# Known Limitations
-Currently the en-iframe plugin has only been QA'ed and tested to load a single embedded iFrame per page. If you are interested in sponsoring further development, please reach out today.
-
 # Support for Drupal, Joomla, Expression Engine, etc..
 This plugin was developed for WordPress but can be quickly adapated as a plugin or a standalone pure Javascript solution. If you are interested in sponsoring further development, please reach out today.
 
