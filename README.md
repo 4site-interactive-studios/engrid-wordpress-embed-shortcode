@@ -7,7 +7,7 @@ Designed and Developed by [4Site Studios](http://4sitestudios.com/en?ms=github) 
 - People for the Ethical Treatment of Animals
 
 # Example Shortcode
-```[en url="https://netdonor.net/page/12345/donate/1?in_type=lightbox&in_name=giving_tuesday_2020"]```
+```[en url="https://netdonor.net/page/12345/donate/1?in_type=lightbox&in_name=giving_tuesday_2020" title="Iframe Title"]```
 
 # Engaging Networks Page Template
 The ENGrid WordPress Plugin was built to compliment our [ENGrid Page Template](https://github.com/4site-interactive-studios/engrid) and does not change the layout of the Engagign Networks page being embedded. If your Engaging Networks page template does not support an "embedded" state which strips the page of styling outside of the body copy and form, please update your template to do so or use the [ENGrid Page Template](https://github.com/4site-interactive-studios/engrid) which has this functionality built in.

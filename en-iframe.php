@@ -38,9 +38,15 @@ function en_iframe_render($atts = [], $content = null, $tag = '')
 
     $iframe_id = "en-iframe-$uniqid";
     $iframe_classes = 'en-iframe ' . $atts['class'];
+    $iframe_title = $atts['title'];
 
-    return "<iframe allow='payment' loading='lazy' id='en-iframe-$uniqid' width='100%' scrolling='no' class='$iframe_classes' src='$url' frameborder='0' allowfullscreen></iframe>";
+    if($iframe_title) {
+        return "<iframe allow='payment' loading='lazy' id='en-iframe-$uniqid' width='100%' scrolling='no' class='$iframe_classes' src='$url' frameborder='0' allowfullscreen allow='payment' title='$iframe_title'></iframe>";
+    } else {
+        return "<iframe allow='payment' loading='lazy' id='en-iframe-$uniqid' width='100%' scrolling='no' class='$iframe_classes' src='$url' frameborder='0' allowfullscreen allow='payment'></iframe>";
+    }
 }
+
 add_shortcode('en', 'en_iframe_render');
 
 add_action('wp_enqueue_scripts', function () {
